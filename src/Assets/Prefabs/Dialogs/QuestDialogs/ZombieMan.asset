@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5337f119c9f582047a109f00a9a2e5dd, type: 3}
+  m_Name: ZombieMan
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Hello. Can you help us? The forest is full of skeletons. We even had
+      to leave our beautiful cave. But we can't stay in the village. People are afraid
+      of us because we're dead. That;s not fair. These skeletons are doing a bad name
+      to all dead creatures. Please, can you get rid of them?
+    responses:
+    - text: Sorry, I don't have time at the moment
+      number: 1
+    - text: Sure. I'm on it
+      number: 2
+    end: 0
+  - NPCsays: Never mind. Maybe som other time
+    responses: []
+    end: 0
+  - NPCsays: Thank you. I knew you're a good person
+    responses: []
+    end: 3
+  - NPCsays: Hello
+    responses: []
+    end: 3
+  curr: 0
+  quest: {fileID: 11400000, guid: 02c6016ee1869cf4387b7a7f44c3a5ba, type: 2}
+  questDialogExchange: 0
+  acceptResponse: 1

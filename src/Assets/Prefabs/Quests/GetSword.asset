@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae7003a16c44254d837c1c9e9ba2423, type: 3}
+  m_Name: GetSword
+  m_EditorClassIdentifier: 
+  requiredAmount: 1
+  completedAmount: 0
+  completed: 0
+  description: 
+  itemID: 4

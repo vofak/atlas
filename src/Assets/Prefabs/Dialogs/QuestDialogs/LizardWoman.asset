@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5337f119c9f582047a109f00a9a2e5dd, type: 3}
+  m_Name: LizardWoman
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Do you think there are some other islands than this one? I need to leave.
+      There are so many spiders here.
+    responses:
+    - text: Dunno
+      number: -1
+    - text: I'll kill some spiders for you
+      number: 1
+    end: 0
+  - NPCsays: You would really do that? Thank you so much
+    responses: []
+    end: 2
+  - NPCsays: How is killing spiders going?
+    responses:
+    - text: Fine.
+      number: -1
+    end: 2
+  - NPCsays: 
+    responses: []
+    end: 0
+  - NPCsays: 
+    responses: []
+    end: 0
+  curr: 0
+  quest: {fileID: 11400000, guid: 0dd90f51ef83b9345b5a0198b78f566f, type: 2}
+  questDialogExchange: 0
+  acceptResponse: 1

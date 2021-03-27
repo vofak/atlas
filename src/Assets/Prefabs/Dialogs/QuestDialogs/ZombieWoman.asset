@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5337f119c9f582047a109f00a9a2e5dd, type: 3}
+  m_Name: ZombieWoman
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Hello warrior. Can you please help us? These skeletons drove us from
+      our home. My husband thinks only about our reputation but the important thing
+      is safety. Can you help us from the skeletons, please?
+    responses:
+    - text: Sorry, I am busy.
+      number: -1
+    - text: Consider it done
+      number: 1
+    end: 0
+  - NPCsays: Thank you lady. I will forever be in your debt.
+    responses: []
+    end: 2
+  - NPCsays: Hello. It feels so much safer here with you around.
+    responses: []
+    end: 2
+  curr: 0
+  quest: {fileID: 11400000, guid: 3f0efb4b0504ba34c938851a5fc78304, type: 2}
+  questDialogExchange: 0
+  acceptResponse: 1

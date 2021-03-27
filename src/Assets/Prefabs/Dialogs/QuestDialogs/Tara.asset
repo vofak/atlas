@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5337f119c9f582047a109f00a9a2e5dd, type: 3}
+  m_Name: Tara
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Hello, Freya. Have you heard about the dragon?
+    responses:
+    - text: Winston might have mentioned something.
+      number: 1
+    end: 0
+  - NPCsays: Terrible Dragon Atlas has broken out of his chaines and came here, to
+      this very island. He also brought an army of giant spiders, skeletons and trolls.
+      Will you help me stop them?
+    responses:
+    - text: Nah.
+      number: -1
+    - text: Ok. What do I do?
+      number: 2
+    end: 0
+  - NPCsays: First you need to get a sword. Find an iron sword. I think the witch
+      is selling one. You can get a better one later but first I need you to get at
+      least this one.
+    responses:
+    - text: You know what? I changed my mind. Bye bye.
+      number: -1
+    - text: And then?
+      number: 3
+    end: 0
+  - NPCsays: You can try to get help in the castle on the hill. But they're all cowards
+      there. I don't think they'll set a foot outside their precious fortress when
+      there are monsters outside.
+    responses:
+    - text: Typical
+      number: 4
+    end: 0
+  - NPCsays: And then just go kill the dragon. Go to the forests and turn left behind
+      the castle. He should be behind the huge mountain. You can take down some of
+      his trolls when you're there. Any questions?
+    responses:
+    - text: First the sword, then the dragon. Got it. See ya
+      number: 5
+    end: 0
+  - NPCsays: Good luck
+    responses: []
+    end: 6
+  - NPCsays: On your way to the dragon's lair?
+    responses:
+    - text: Sure
+      number: -1
+    end: 6
+  curr: 0
+  quest: {fileID: 11400000, guid: f8f0fef29ba6a6549bcd15581cad8e7c, type: 2}
+  questDialogExchange: 4
+  acceptResponse: 0

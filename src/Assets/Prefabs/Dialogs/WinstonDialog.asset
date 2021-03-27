@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286a56bdf1423004ba1cc34f246f47ce, type: 3}
+  m_Name: WinstonDialog
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Hi! It's so nice to see you. In times like these, we really need people
+      like you around.
+    responses:
+    - text: What do you mean?
+      number: 1
+    end: 0
+  - NPCsays: You haven't noticed? The forests are flooded with giant spiders, skeletons
+      and I even saw a few cave trolls. Lizzard people and zombies came to the village.
+      I haven't seen them for a long time. And I think Tara went mad.
+    responses:
+    - text: Tell me about the lizard people.
+      number: 2
+    - text: Tell me about the zombies.
+      number: 3
+    - text: Tell me about Tara.
+      number: 4
+    - text: Hmmm. Interesting. See you later, Winston.
+      number: -1
+    end: 0
+  - NPCsays: There is something wrong with them. They look really scared and keep
+      looking at the sea. I hope they are not thinking about swimming away. One of
+      them is in the house right next to mine
+    responses:
+    - text: Tell me about the zombies.
+      number: 3
+    - text: Tell me about Tara.
+      number: 4
+    - text: Hmmm. Interesting. See you later, Winston.
+      number: -1
+    end: 0
+  - NPCsays: They don't usually go out of their cave. But I guess all the other monsters
+      in the forest drove them out. Now they are just standing behind the village
+    responses:
+    - text: Tell me about the lizard people
+      number: 2
+    - text: Tell me about Tara.
+      number: 4
+    - text: Hmmm. Interesting. See you later, Winston.
+      number: -1
+    end: 0
+  - NPCsays: She keeps telling everyone about a dragon and that he has to be stopped.
+      I'm really worried about her. You should go talk to her
+    responses:
+    - text: Tell me about the lizard people.
+      number: 2
+    - text: Tell me about the zombies.
+      number: 3
+    - text: I will. Thanks, Winston. See you later.
+      number: -1
+    end: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5337f119c9f582047a109f00a9a2e5dd, type: 3}
+  m_Name: LizardMan
+  m_EditorClassIdentifier: 
+  dialogExchanges:
+  - NPCsays: Stupid spiders. I hate spiders. They are everywhere. Could you do one
+      thing for me please? You look like a fine warrior. Kill a few spiders for me,
+      will you?
+    responses:
+    - text: No. I like spiders
+      number: 1
+    - text: Ok
+      number: 2
+    end: 0
+  - NPCsays: You're weird
+    responses: []
+    end: 0
+  - NPCsays: Thank you
+    responses: []
+    end: 3
+  - NPCsays: Thanks again for agreeing to kill the spiders for me
+    responses: []
+    end: 3
+  curr: 0
+  quest: {fileID: 11400000, guid: 8d11dedfbedb76043917fe2b353ff3c5, type: 2}
+  questDialogExchange: 0
+  acceptResponse: 1
